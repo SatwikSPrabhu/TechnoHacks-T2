@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 25px;
+}
+  
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: #121212;
+    border: 2px solid #B0E0E6;
+    border-radius: 25px;
+    color: #cdcdcd;
+    box-shadow: 5px 5px 5px #B0E0E6;
+    margin-top: 10vh;
+    padding:20px;
+    text-align: center;
+    align-content: center;
+}
+
+.currency{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.currency select {
+    font-family: monospace;
+    background-color:transparent;
+    color: aliceblue;
+    width : 80px;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.currency input {
+    font-family: sans-serif;
+    background-color: transparent;
+    color: #2d7bda;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding:2px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.currency select option{
+    background-color: #373737;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.result {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button#exchange  {
+    width: 80px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color:aliceblue;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+    padding-bottom : 0.3rem;
+    border: none;
+    border-radius: 50%;
+}
+
+ button#exchange:hover{
+    color: aliceblue;
+    background-color: #2d7bda;
+    border: none;
+    border-radius: 50%;
+}
+
+.rate{
+    color: rgb(255, 94, 0);    
+    width: 500px;
+    height: 35px;
+    border-radius: 15px   ;
+    border-radius: 35px;
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+select:focus, input:focus, button:focus {
+	outline: 0;
+}
